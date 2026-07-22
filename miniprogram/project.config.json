@@ -1,0 +1,14 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "production-log",
+  "description": "Production Log WeChat Mini Program",
+  "appid": "REPLACE_WITH_WECHAT_APP_ID",
+  "compileType": "miniprogram",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "postcss": true,
+    "urlCheck": true
+  }
+}

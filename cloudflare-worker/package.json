@@ -1,0 +1,5 @@
+{
+  "name": "production-log-cloudflare-worker-release",
+  "private": true,
+  "type": "module"
+}

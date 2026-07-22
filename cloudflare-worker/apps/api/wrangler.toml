@@ -1,0 +1,11 @@
+name = "production-log-api"
+main = "src/index.ts"
+compatibility_date = "2026-07-20"
+
+# Set WEB_ORIGIN as an environment variable and SUPPORT_EMAIL,
+# SUPPORT_FROM_EMAIL, and RESEND_API_KEY with `wrangler secret put`.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "production-log"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
